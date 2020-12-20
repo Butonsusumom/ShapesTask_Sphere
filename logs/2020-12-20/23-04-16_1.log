@@ -1,0 +1,158 @@
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.factory.impl.SphereFactory - parameters: [10.5, 13.5, 0.0, 10.0]
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: 10.5, 13.5, 0.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Sphere - parameters: center point = com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius = 10.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Sphere - create new Point for Sphere.centerPoint
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: 10.5, 13.5, 0.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Sphere - Sphere with define parameters was created, center point = com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius = 10.0
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.factory.impl.SphereFactory - Sphere was created, sphere.id=1
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.factory.impl.SphereFactory - parameters: [5.0, 8.0, 12.0, 6.0]
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: 5.0, 8.0, 12.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Sphere - parameters: center point = com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius = 6.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Sphere - create new Point for Sphere.centerPoint
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: 5.0, 8.0, 12.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Sphere - Sphere with define parameters was created, center point = com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius = 6.0
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.factory.impl.SphereFactory - Sphere was created, sphere.id=2
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.factory.impl.SphereFactory - parameters: [4.0, 3.0, 8.0, 6.5]
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: 4.0, 3.0, 8.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Sphere - parameters: center point = com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius = 6.5
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Sphere - create new Point for Sphere.centerPoint
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: 4.0, 3.0, 8.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Sphere - Sphere with define parameters was created, center point = com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius = 6.5
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.factory.impl.SphereFactory - Sphere was created, sphere.id=3
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Sphere for adding: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Sphere for adding: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Sphere for adding: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Comparator: com.tsybulko.shapes.repository.comparator.IdComparator@2805d709
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - sorted List: [com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0, com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0, com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5]
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Comparator: com.tsybulko.shapes.repository.comparator.RadiusComparator@2ea41516
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - sorted List: [com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0, com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5, com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0]
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.RadiusSpecification - parameters: minimal radius: 2.0, maximum radius: 7.0
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.RadiusSpecification - RadiusSpecification created, minRadius = 2.0, maxRadius = 7.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Specification: com.tsybulko.shapes.repository.specification_impl.RadiusSpecification
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.RadiusSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.RadiusSpecification - Sphere radius greater or equal minRadius: true
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.RadiusSpecification - Sphere radius less or equal maxRadius: false
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.RadiusSpecification - result: radius meets conditions: false
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.RadiusSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.RadiusSpecification - Sphere radius greater or equal minRadius: true
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.RadiusSpecification - Sphere radius less or equal maxRadius: true
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.RadiusSpecification - result: radius meets conditions: true
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - sphere added to result List
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.RadiusSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.RadiusSpecification - Sphere radius greater or equal minRadius: true
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.RadiusSpecification - Sphere radius less or equal maxRadius: true
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.RadiusSpecification - result: radius meets conditions: true
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - sphere added to result List
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - result List of query(): [com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0, com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5]
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - called method to change radius of sphere
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameters: id = 2, radius = 255.2
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.IdSpecification - IdSpecification created, id = 2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Specification: com.tsybulko.shapes.repository.specification_impl.IdSpecification
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : false
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : true
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - sphere added to result List
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : false
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - result List of query(): [com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=6.0]
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Sphere - center point was set, center point: 255.2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - square = 818410.5216561944
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - volume = 6.961945504222025E7
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - Sphere doesn't touch any plane
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - point: com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - minDistance == xCoordinate : 5.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - result: minDistance = 5.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - distance to plane less radius of Sphere
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - part on the other side of plane = 250.2
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - radius of spherical cap = 255.15101410733212
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - volume of spherical cap = 3.377721151567256E7
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - volume = 6.961945504222025E7
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - volume of other part = 3.584224352654769E7
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - ratio = 1.0611368410301414
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - Radius was changed successfully, new radius = 255.2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: -15.5, 187.25, 35.66
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - called method to change center point of sphere
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameters: id = 1, center point = com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.IdSpecification - IdSpecification created, id = 1
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Specification: com.tsybulko.shapes.repository.specification_impl.IdSpecification
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : true
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - sphere added to result List
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : false
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : false
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - result List of query(): [com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=10.5, coordinateY=13.5, coordinateZ=0.0, radius=10.0]
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.entity.Point - parameters: -15.5, 187.25, 35.66
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Point - Point with define coordinates was created
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Sphere - center point was set, center point: com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - square = 1256.6370614359173
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - volume = 4188.790204786391
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - Sphere doesn't touch any plane
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - point: com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - minDistance == xCoordinate : 15.5
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - result: minDistance = 15.5
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - Sphere doesn't cross any plane
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - ratio = 0.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - Center point was changed successfully, new center point = com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - called method to change radius of sphere
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameters: id = 2, radius = 10.0
+2020-12-20 23:04:16 [main] INFO  tsybulko.shapes.repository.specification_impl.IdSpecification - IdSpecification created, id = 2
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - parameter: Specification: com.tsybulko.shapes.repository.specification_impl.IdSpecification
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=-15.5, coordinateY=187.25, coordinateZ=35.66, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : false
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : true
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - sphere added to result List
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - inside for: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - parameter: Spherecom.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=4.0, coordinateY=3.0, coordinateZ=8.0, radius=6.5
+2020-12-20 23:04:16 [main] DEBUG tsybulko.shapes.repository.specification_impl.IdSpecification - id == sphere.getId() : false
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.repository.SphereRepository - result List of query(): [com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=255.2]
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.entity.Sphere - center point was set, center point: 10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - square = 1256.6370614359173
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - volume = 4188.790204786391
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - Sphere doesn't touch any plane
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - point: com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - minDistance == xCoordinate : 5.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - result: minDistance = 5.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - distance to plane less radius of Sphere
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - part on the other side of plane = 5.0
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - radius of spherical cap = 8.660254037844387
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - volume of spherical cap = 549.2750676882571
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - parameter: Sphere: com.tsybulko.shapes.entity.SpherecenterPoint=com.tsybulko.shapes.entity.Point: coordinateX=5.0, coordinateY=8.0, coordinateZ=12.0, radius=10.0
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - volume = 4188.790204786391
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.action.SphereAction - volume of other part = 3639.515137098134
+2020-12-20 23:04:16 [main] DEBUG com.tsybulko.shapes.action.SphereAction - ratio = 6.626033751023545
+2020-12-20 23:04:16 [main] INFO  com.tsybulko.shapes.repository.SphereRepository - Radius was changed successfully, new radius = 10.0
